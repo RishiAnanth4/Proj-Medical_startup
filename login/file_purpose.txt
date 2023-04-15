@@ -1,5 +1,5 @@
 start.py => starts the website, references info
-info.py(use only as module) => contains all variables i.e. session variables
+forms.py(use only as module) => contains all variables i.e. session variables
 login.html/css/py => sets up login
 check_login.py => based on the session[login][correct], displayes next screen
 register.html/css/py => sets up register page 
