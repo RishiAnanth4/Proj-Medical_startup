@@ -1,14 +1,15 @@
 from socket import SocketIO
 import numpy as np
-import info
 from flask import render_template
-from forms.py import LoginForm
+from forms import LoginForm
+import app
 
 
 def login_start():
     form = LoginForm()
-    return render_template("./login.html", template_title="login", LForm=form)
+    print("in start abt to render")
+    return render_template("./login.html", template_title="login", Login=form)
 
 
-if __name__ == '__main__':
+if __name__ == '__login__':
     login_start()
