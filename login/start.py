@@ -2,7 +2,7 @@ from socket import SocketIO
 import numpy as np
 from flask import render_template
 from forms import LoginForm
-import app
+
 
 
 def login_start():
