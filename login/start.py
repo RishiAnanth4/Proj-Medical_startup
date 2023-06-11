@@ -4,7 +4,6 @@ from flask import render_template
 from forms import LoginForm
 
 
-
 def login_start():
     form = LoginForm()
     print("in start abt to render")
